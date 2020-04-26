@@ -1,0 +1,239 @@
+/* E-Mart CSS */
+/*-----HOME------*/
+@import "https://fonts.googleapis.com/css?family=Oswald:400,700";
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+@import "https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,800,800i,900,900i";
+
+#index_body{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#index_header{
+    border:1px solid black;
+    background-color:lightgreen; 
+    position:fixed; 
+    font-size:15px;
+    width:100%;
+    display: inline-block;
+    font-family: montserrat;
+}
+
+#logo{
+    background-color: greenyellow;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+}
+
+.index_ul_li{
+    display: inline-block;
+    font-family: oswald;
+    font-size: 20px;
+    margin: 0px 90px;
+    background-color: lightseagreen;
+}
+
+.bt{
+        padding:2px;
+        margin:1px
+    }
+
+ul{
+        border:1px solid black;
+        background-color:lightseagreen;
+        padding:0;
+        margin:0;
+        position:fixed;
+        width:100%;
+    }
+
+li{
+        display:block;
+        float:left;
+    }
+
+.index_a{
+        display:block;
+        padding:15px 15px;
+        text-align:center;
+        color:black;
+    }
+
+.index_a:hover{
+        background-color:grey;
+    }
+
+table{
+        border:2px solid black;
+        width:100%;
+        padding:20px;
+        border-collapse:collapse;
+    }
+
+td{
+        border:1px solid black;
+        width:50%;
+        padding:20px;
+        border-collapse:collapse;
+    }
+
+td:hover{
+        background-color: grey;
+    }
+
+img{
+        width:200px;
+        height:150px;
+    }
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+    color: white;
+}
+
+
+/*-----SIGNIN---------*/
+
+#si_body{
+    background-image:url(image/login-page-background-images-hd-9.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#si_header{
+    border:1px solid black;
+    background-color:greenyellow; 
+    position:fixed;
+    font-size:15px;
+    width:100%;
+    font-family: montserrat; 
+}
+
+#si_div{
+    border:4px solid black;
+    background-color:aliceblue;
+    width:600px;
+    height:600px;
+    margin:70px 360px;
+}
+
+.si_ul_li{
+    display: inline-block;
+    font-family: oswald;
+    font-size: 25px;
+    margin: 0px 70px;
+    background-color: lightseagreen;
+}
+
+.si_form_input{
+    font-size: 20px;
+    margin:0px 20px;
+    border-radius: 3px;
+}
+
+#si_form{
+    margin:40px 150px;
+    height:400px;
+    width: 300px;
+    border: 3px solid green;
+}
+
+.si_form_field{
+    font-size: 30px;
+    margin:0px 20px;
+}
+
+.si_button{
+    cursor: pointer;
+}
+
+/*-----SIGNUP---------*/
+
+#su_body{
+    background-image: url(image/login-page-background-images-hd-9.jpg);
+    margin: 0;
+}
+
+#su_div{
+    border:4px solid black; 
+    background-color:aliceblue; 
+    width:600px; 
+    height:750px; 
+    margin:70px 370px;
+}
+
+.su_ul_li{
+    display: inline-block;
+    font-family: oswald;
+    font-size: 25px;
+    margin: 0px 90px;
+    background-color: lightseagreen;
+}
+
+#su_form{
+    margin:80 px; 
+    padding:30px;
+}
+
+.su_form_field{
+    font-family: cursive;
+    font-size: 15px;
+    margin: 0px -15px;
+}
+
+.su_form_input{
+    font-size: 20px;
+    margin: 0px -15px;
+    border-radius: 5px;
+    width:400px;
+    
+}
+
+.su_form_button{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0px -15px;
+    border-radius: 5px;
+    background-color: salmon;
+}
+
+.su_form_input2{
+    font-size: 15px;
+    margin: 0px 5px; 
+}
+
+.su_form_option{
+    font-size: 15px;
+}
